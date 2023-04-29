@@ -1,0 +1,16 @@
+:root {
+  --primary: rgb(0, 0, 0);
+  --secondary: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: var(--primary);
+  width: 100%;
+  height: 100vh;
+}
